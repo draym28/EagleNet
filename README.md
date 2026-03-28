@@ -2,7 +2,7 @@
 
 Our paper is accepted by **CVPR 2026**, by [Yuhan Chen](https://github.com/draym28), [Pengwen Dai](https://scst.sysu.edu.cn/teacher/DaiPengwen), [Chuan Wang](https://chuanwang-cv.github.io/), [Dayan Wu](https://wudayan92.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/teacher/CaoXiaochun).
 
-Paper link: [[arXiv]](https://arxiv.org/html/2603.25267v1).
+Paper link: [[arXiv]](https://arxiv.org/abs/2603.25267v1).
 
 ## Introduction
 
