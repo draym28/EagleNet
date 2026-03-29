@@ -13,7 +13,7 @@ EagleNet generates accurate and context-aware enriched text embeddings, incorpor
 
 EagleNet achieve SOTA results on MSRVTT (R@1 51.0%), DiDeMo (51.5%), MSVD (50.9%), and VATEX (63.6%).
 
-![framework](image\framework.png)
+![framework](./image/framework.png)
 
 ## Code Structure
 
