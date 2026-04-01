@@ -1,8 +1,10 @@
 # EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval
 
+English | [中文](./README_zh.md)
+
 Our paper is accepted by **CVPR 2026**, by [Yuhan Chen](https://github.com/draym28), [Pengwen Dai](https://scst.sysu.edu.cn/teacher/DaiPengwen), [Chuan Wang](https://chuanwang-cv.github.io/), [Dayan Wu](https://wudayan92.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/teacher/CaoXiaochun).
 
-Paper link: [[arXiv]](https://arxiv.org/abs/2603.25267v1).
+Paper link: [[arXiv]](https://arxiv.org/abs/2603.25267v2).
 
 ## Introduction
 
@@ -35,7 +37,7 @@ conda create -n eaglenet python=3.8
 conda activate eaglenet
 ```
 
-2. install pytorch: torch=1.12.1, torchvision=0.13.1.
+2. install pytorch: `torch=1.12.1`, `torchvision=0.13.1`.
 
 3. install other dependencies:
 ```bash
@@ -54,7 +56,7 @@ If you train with multiple GPUs (distributed), make sure `torch.distributed` wor
 
 We test our model on MSRVTT, DiDeMo, MSVD, and VATEX. Please refer to [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) for the first 3 datasets and [TS2-Net](https://github.com/LiuRicky/ts2_net) for VATEX.
 
-We follow [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) to compress all videos to 3fps, 224*224 for speed-up (optional):
+(Optional) We follow [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) to compress all videos to 3fps, 224*224 for speed-up:
 ```bash
 python preprocess/compress_video.py --input_root [raw_video_path] --output_root [compressed_video_path]
 ```
