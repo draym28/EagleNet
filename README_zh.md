@@ -20,7 +20,7 @@ EagleNet 在 MSRVTT（R@1 51.0%）、DiDeMo（51.5%）、MSVD（50.9%）以及 V
 
 ## 代码结构
 
-此目录包含一个基于 CLIP 的 **视频-文本检索（video-text retrieval）** 实现。
+此目录包含一个基于 CLIP 的 **文本-视频检索（video-text retrieval）** 实现。
 - 主要入口是 `main_my.py`。
 - 训练/测试循环在 `train_and_eval.py` 中。
 - 参数在 `args.py` 中定义。
