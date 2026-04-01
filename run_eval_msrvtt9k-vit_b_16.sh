@@ -1,8 +1,8 @@
 CUDA_VISIBLE_DEVICES=0
 
 time=$(date +"%Y_%m_%d-%H_%M_%S")
-ANNO_PATH=$PWD/../data/origin/MSRVTT/msrvtt_data/
-VID_PATH=$PWD/../data/origin/MSRVTT/videos/all/
+ANNO_PATH=$PWD/data/origin/MSRVTT/msrvtt_data/
+VID_PATH=$PWD/data/origin/MSRVTT/videos/all/
 BEST_CKPT_FOLDER=PATH_TO_FOLDER_OF_BEST_CKPT
 CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python main_my.py \
     --do_train 0 --eval_in_train 0 --do_eval 1 --seed 0 --num_thread_reader 0 \
