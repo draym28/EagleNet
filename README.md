@@ -19,7 +19,7 @@ EagleNet achieve SOTA results on MSRVTT (R@1 51.0%), DiDeMo (51.5%), MSVD (50.9%
 
 ## Code Structure
 
-This directory contains a CLIP-based **video-text retrieval** implementation. 
+This directory contains a CLIP-based **text-video retrieval** implementation. 
 - The main entry-point is `main_my.py`. 
 - Training/evaluation loops are in `train_and_eval.py`.
 - Arguments are defined in `args.py`.
