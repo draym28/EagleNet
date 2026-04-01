@@ -4,7 +4,7 @@
 
 我们的论文被 **CVPR 2026** 接收。作者：[Yuhan Chen](https://github.com/draym28), [Pengwen Dai](https://scst.sysu.edu.cn/teacher/DaiPengwen), [Chuan Wang](https://chuanwang-cv.github.io/), [Dayan Wu](https://wudayan92.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/teacher/CaoXiaochun)。
 
-论文链接：[[arXiv]](https://arxiv.org/abs/2603.25267v2).
+论文链接：[[arXiv]](https://arxiv.org/abs/2603.25267v2)。
 
 ## 简介
 
