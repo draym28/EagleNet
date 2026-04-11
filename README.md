@@ -63,7 +63,7 @@ python preprocess/compress_video.py --input_root [raw_video_path] --output_root 
 
 We also provide link for downloading the original/compressed videos via [Baidu Netdisk](https://pan.baidu.com/s/1OlrADWgLE9fWUdieB0JX_Q?pwd=qasj).
 
-The splits/annotations can be downloaded via [Google Driver](https://drive.google.com/drive/folders/1nqJfU2dYYJYNcT6X1yBCkhnj6Z0j4zHw) or [Baidu Netdisk](https://pan.baidu.com/s/1a6HoHzwp3UFJPhA3_Pk5Zg?pwd=ckch).
+The splits/annotations can be downloaded via [Google Drive](https://drive.google.com/drive/folders/1nqJfU2dYYJYNcT6X1yBCkhnj6Z0j4zHw) or [Baidu Netdisk](https://pan.baidu.com/s/1a6HoHzwp3UFJPhA3_Pk5Zg?pwd=ckch).
 
 The data files are structured as follow:
 ```text
@@ -124,7 +124,7 @@ bash run_train_vatex.sh
 
 #### Evaluate on MSRVTT
 
-EagleNet checkpoints for MSRVTT (ViT-B/32 & ViT-B/16) can be downloaded via [Google Driver](https://drive.google.com/drive/folders/1oy8nvyd6tbUqGVJZ44layuyaHSXcyQeP) or [Baidu Netdisk](https://pan.baidu.com/s/1Ps9iRkKOR9V8yQklGalY5Q?pwd=rief), and run
+EagleNet checkpoints for MSRVTT (ViT-B/32 & ViT-B/16) can be downloaded via [Google Drive](https://drive.google.com/drive/folders/1oy8nvyd6tbUqGVJZ44layuyaHSXcyQeP) or [Baidu Netdisk](https://pan.baidu.com/s/1Ps9iRkKOR9V8yQklGalY5Q?pwd=rief), and run
 
 ```bash
 bash run_eval_msrvtt9k-vit_b_32.sh
