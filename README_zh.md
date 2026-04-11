@@ -66,7 +66,7 @@ python preprocess/compress_video.py --input_root [raw_video_path] --output_root 
 
 此外，我们也提供通过 [Baidu Netdisk](https://pan.baidu.com/s/1OlrADWgLE9fWUdieB0JX_Q?pwd=qasj) 下载原始/压缩视频的链接。
 
-划分/标注文件可以通过 [Google Driver](https://drive.google.com/drive/folders/1nqJfU2dYYJYNcT6X1yBCkhnj6Z0j4zHw?usp=drive_link) 或 [Baidu Netdisk](https://pan.baidu.com/s/1a6HoHzwp3UFJPhA3_Pk5Zg?pwd=ckch) 下载。
+划分/标注文件可以通过 [Google Driver](https://drive.google.com/drive/folders/1nqJfU2dYYJYNcT6X1yBCkhnj6Z0j4zHw) 或 [Baidu Netdisk](https://pan.baidu.com/s/1a6HoHzwp3UFJPhA3_Pk5Zg?pwd=ckch) 下载。
 
 数据文件的组织结构如下：
 
@@ -132,7 +132,7 @@ bash run_train_vatex.sh
 
 #### 在 MSRVTT 上测试
 
-MSRVTT（ViT-B/32 & ViT-B/16）的 EagleNet 检查点可以通过 [Google Driver](https://drive.google.com/drive/folders/1oy8nvyd6tbUqGVJZ44layuyaHSXcyQeP?usp=drive_link) 或 [Baidu Netdisk](https://pan.baidu.com/s/1Ps9iRkKOR9V8yQklGalY5Q?pwd=rief) 下载，然后运行：
+MSRVTT（ViT-B/32 & ViT-B/16）的 EagleNet 模型文件可以通过 [Google Driver](https://drive.google.com/drive/folders/1oy8nvyd6tbUqGVJZ44layuyaHSXcyQeP) 或 [Baidu Netdisk](https://pan.baidu.com/s/1Ps9iRkKOR9V8yQklGalY5Q?pwd=rief) 下载，然后运行：
 
 ```bash
 bash run_eval_msrvtt9k-vit_b_32.sh
